@@ -3,7 +3,7 @@
 	<persistence-unit name="TestApp" transaction-type="RESOURCE_LOCAL">
 		<class>beans.Article</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql:3306/"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql:3306/baza"/>
 			<property name="javax.persistence.jdbc.user" value="user"/>
 			<property name="javax.persistence.jdbc.password" value="password"/>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
